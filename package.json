@@ -1,5 +1,5 @@
 {
-  "name": "p",
+  "name": "APP",
   "version": "1.0.0",
   "description": "bot server",
   "main": "server.js",
