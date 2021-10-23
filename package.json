@@ -6,7 +6,8 @@
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.0",
     "async": "^2.4.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs": "^0.0.1"
   },
   "scripts": {
     "test": "server.js",
