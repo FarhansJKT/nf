@@ -1,0 +1,20 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "description": "bot server",
+  "main": "server.js",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.0",
+    "async": "^2.4.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Farhanss",
+  "license": "MIT"
+}
