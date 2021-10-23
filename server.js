@@ -35,7 +35,7 @@ const getHashedPassword = (password) => {
     return hash;
 }
 
-const users = JSON.parse(fs.readFileSync('./database/users.json'));
+const users = JSON.parse(fs.readFileSync('./database/user.json'));
 
 app.post('/register', (req, res) => {
     const { email, firstName, lastName, password, confirmPassword } = req.body;
