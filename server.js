@@ -35,7 +35,16 @@ const getHashedPassword = (password) => {
     return hash;
 }
 
-const users = JSON.parse(fs.readFileSync('./database/user.json'));
+const users = [
+    // This user is added to the array to avoid creating a new user on each restart
+    {
+        firstName: 'John',
+        lastName: 'Doe',
+        email: 'johndoe@email.com',
+        // This is the SHA256 hash for value of `password`
+        password: 'XohImNooBHFR0OVvjcYpJ3NgPQ1qq73WKhHvch0VQtg='
+    }
+];
 
 app.post('/register', (req, res) => {
     const { email, firstName, lastName, password, confirmPassword } = req.body;
