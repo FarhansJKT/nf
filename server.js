@@ -3,6 +3,7 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const PORT = process.env.PORT || 8080 || 5000 || 3000
 
 const app = express();
 
@@ -158,4 +159,6 @@ app.get('/dasboard', requireAuth, (req, res) => {
     res.render('protected');
 });
 
-app.listen(3000);
+app.listen(PORT, () => {
+    console.log('server is running'
+});
