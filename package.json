@@ -23,7 +23,7 @@
     "url": "https://github.com/FarhanssAja/nf/issues"
   },
   "dependencies": {
-    "express-handlebars", "^5.3.4",
+    "express-handlebars": "^5.3.4",
     "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
