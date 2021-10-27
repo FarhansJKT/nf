@@ -1,7 +1,7 @@
 {
-  "name": "tod",
+  "name": "Nf-xd",
   "version": "1.2.0",
-  "description": "todtrotod",
+  "description": "Web amburadul",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -23,6 +23,7 @@
     "url": "https://github.com/FarhanssAja/nf/issues"
   },
   "dependencies": {
+    "express-handlebars", "^5.3.4",
     "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
